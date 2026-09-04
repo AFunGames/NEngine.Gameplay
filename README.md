@@ -50,6 +50,14 @@ This repository is renderer-agnostic and must not encode rendering APIs, rendere
 └── README.md
 ```
 
+## Documentation
+
+- [docs/architecture.md](docs/architecture.md) — repository role and dependency boundary
+- [docs/gameplay-model.md](docs/gameplay-model.md) — reusable gameplay model orientation
+- [docs/development.md](docs/development.md) — repository-local development contract
+
+Repository-local documentation is authoritative for repository-internal development facts. Cross-repository product, ownership, and migration decisions remain governed by the CurseBreaker superproject.
+
 ## Current State
 
 No production gameplay implementation exists yet. No ECS implementation, build topology, dependencies, tests, or CI have been introduced.
